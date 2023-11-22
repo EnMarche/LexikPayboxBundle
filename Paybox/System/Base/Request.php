@@ -4,9 +4,8 @@ namespace Lexik\Bundle\PayboxBundle\Paybox\System\Base;
 
 use Lexik\Bundle\PayboxBundle\Paybox\AbstractRequest;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
-use Symfony\Component\Form\Form;
 use Symfony\Component\Form\FormFactoryInterface;
-use Symfony\Component\HttpKernel\Kernel;
+use Symfony\Component\Form\FormInterface;
 
 /**
  * Class Request
@@ -141,7 +140,7 @@ class Request extends AbstractRequest
      *
      * @param  array $options
      *
-     * @return Form
+     * @return FormInterface
      */
     public function getForm($options = array())
     {

@@ -100,7 +100,7 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 /**
  * Sample action to call a payment.
- * It create the form to submit with all parameters.
+ * It creates the form to submit with all parameters.
  */
 public function callAction()
 {
@@ -131,8 +131,8 @@ public function callAction()
 ...
 /**
  * Sample action of a confirmation payment page on witch the user is sent
- * after he seizes his payment informations on the Paybox's platform.
- * This action must only containts presentation logic.
+ * after he seizes his payment information on the Paybox's platform.
+ * This action must only contain presentation logic.
  */
 public function responseAction($status)
 {
@@ -159,7 +159,6 @@ The bundle contains a listener example that simply create a file on each ipn cal
 namespace Lexik\Bundle\PayboxBundle\Listener;
 
 use Symfony\Component\Filesystem\Filesystem;
-
 use Lexik\Bundle\PayboxBundle\Event\PayboxResponseEvent;
 
 /**

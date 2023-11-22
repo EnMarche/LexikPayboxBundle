@@ -1,6 +1,6 @@
 <?php
 
-namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\System;
+namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\System\Base;
 
 use Lexik\Bundle\PayboxBundle\Paybox\System\Base\ParameterResolver;
 use PHPUnit\Framework\TestCase;
