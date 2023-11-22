@@ -2,9 +2,8 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Transport;
 
-use Lexik\Bundle\PayboxBundle\Paybox\RequestInterface;
-use Lexik\Bundle\PayboxBundle\Transport\AbstractTransport;
-use PHPUnit\Framework\Test;
+use Lexik\Bundle\PayboxBundle\src\Paybox\RequestInterface;
+use Lexik\Bundle\PayboxBundle\src\Transport\AbstractTransport;
 use PHPUnit\Framework\TestCase;
 
 /**

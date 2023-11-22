@@ -2,9 +2,9 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Transport;
 
-use Lexik\Bundle\PayboxBundle\Paybox\RequestInterface;
-use Lexik\Bundle\PayboxBundle\Paybox\System\Cancellation\Request;
-use Lexik\Bundle\PayboxBundle\Transport\CurlTransport;
+use Lexik\Bundle\PayboxBundle\src\Paybox\RequestInterface;
+use Lexik\Bundle\PayboxBundle\src\Paybox\System\Cancellation\Request;
+use Lexik\Bundle\PayboxBundle\src\Transport\CurlTransport;
 use PHPUnit\Framework\TestCase;
 
 /**

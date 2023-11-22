@@ -2,7 +2,7 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\DirectPlus;
 
-use Lexik\Bundle\PayboxBundle\Paybox\DirectPlus\ParameterResolver;
+use Lexik\Bundle\PayboxBundle\src\Paybox\DirectPlus\ParameterResolver;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -2,7 +2,7 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\System;
 
-use Lexik\Bundle\PayboxBundle\Paybox\System\Base\Request;
+use Lexik\Bundle\PayboxBundle\src\Paybox\System\Base\Request;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Form\FormFactoryInterface;
 

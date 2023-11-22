@@ -2,8 +2,8 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\DirectPlus;
 
-use Lexik\Bundle\PayboxBundle\Paybox\DirectPlus\Request;
-use Lexik\Bundle\PayboxBundle\Transport\AbstractTransport;
+use Lexik\Bundle\PayboxBundle\src\Paybox\DirectPlus\Request;
+use Lexik\Bundle\PayboxBundle\src\Transport\AbstractTransport;
 use PHPUnit\Framework\Constraint\StringMatchesFormatDescription;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;

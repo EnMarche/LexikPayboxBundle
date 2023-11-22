@@ -2,7 +2,7 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\System;
 
-use Lexik\Bundle\PayboxBundle\Paybox\System\Base\ParameterResolver;
+use Lexik\Bundle\PayboxBundle\src\Paybox\System\Base\ParameterResolver;
 use PHPUnit\Framework\TestCase;
 
 /**

@@ -2,7 +2,7 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\System\Cancellation;
 
-use Lexik\Bundle\PayboxBundle\Paybox\System\Cancellation\ParameterResolver;
+use Lexik\Bundle\PayboxBundle\src\Paybox\System\Cancellation\ParameterResolver;
 use PHPUnit\Framework\TestCase;
 
 /**

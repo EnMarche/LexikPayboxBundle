@@ -2,7 +2,7 @@
 
 namespace Lexik\Bundle\PayboxBundle\Tests\Paybox\System;
 
-use Lexik\Bundle\PayboxBundle\Paybox\System\Base\Response;
+use Lexik\Bundle\PayboxBundle\src\Paybox\System\Base\Response;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
