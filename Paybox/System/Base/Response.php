@@ -133,7 +133,7 @@ class Response
             $this->logger->info(sprintf('%s=%s', $key, $value));
 
             if ($this->parameters['hmac']['signature_name'] !== $key) {
-                $this->data[$key] = urlencode($value);
+                $this->data[$key] = rawurlencode($value);
             }
         }
     }
