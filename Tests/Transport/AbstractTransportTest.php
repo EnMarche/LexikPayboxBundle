@@ -4,7 +4,6 @@ namespace Lexik\Bundle\PayboxBundle\Tests\Transport;
 
 use Lexik\Bundle\PayboxBundle\Paybox\RequestInterface;
 use Lexik\Bundle\PayboxBundle\Transport\AbstractTransport;
-use PHPUnit\Framework\Test;
 use PHPUnit\Framework\TestCase;
 
 /**

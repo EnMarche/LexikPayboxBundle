@@ -24,7 +24,7 @@ class SampleController extends AbstractController
      */
     public function indexAction()
     {
-        $paybox = $this->get('lexik_paybox.request_handler');
+        $paybox = $this->container->get('lexik_paybox.request_handler');
         $paybox->setParameters(array(
             'PBX_CMD'          => 'CMD'.time(),
             'PBX_DEVISE'       => '978',
